@@ -1,0 +1,91 @@
+
+.header{
+    background-image: url(./header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    height: 100%;
+    max-height: 100vh;
+
+}
+.brand-name{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightslategrey;
+}
+
+.navba{
+    padding: 30px;
+    position: fixed;
+    justify-content: space-between;
+    color: white;
+    background-color: transparent !important;
+    align-items: center;
+}
+.nav-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color: white;
+}
+.nav-links li a:hover{
+    color: black;;
+
+}
+
+.row{
+    font-family:sans-serif;
+}
+.wemake{
+    font-size: 5rem;
+    font-weight: 500;
+    color: white;
+}
+.buttons{
+    color: #f06161;
+
+}
+.button:hover{
+    color: black;
+    
+}
+.downtext{
+    color: white;
+
+}
+.main-container{
+    background-size: cover;
+    background-color:azure;
+    height: 500px;
+}
+
+.read{
+    font-size: large;
+    color: #000;
+    text-decoration: none;
+}
+section{
+padding: 100px;
+}
+.rows{
+    display: flex;
+}
+.container-1{
+    background-color: azure;
+}
+.image{
+    float:left;
+}
+.word{
+    float: right;
+}
